@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%- article.title.rendered %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+ </head>
+
+<body>
+     <div class="wrap-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Blog</h2>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img src="<%- article.thumbnail_url %>" alt="" srcset="">
+                    <h2>
+                        <%- article.title.rendered%>
+                    </h2>
+                    <p>
+                        <%- article.content.rendered%>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+</body>
+
+</html>

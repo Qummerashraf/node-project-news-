@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: 'Montserrat', 'Geneva', Verdana, sans-serif;
+    
+}
+
+iframe {
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0%;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'Geneva', Verdana, sans-serif;
+    background-color: #050017 !important;
+    color: white !important;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+}
+
+[class^=col-] {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 0px 15px;
+}
+
+.col-1 {
+    flex-basis: 8.33%;
+    max-width: 8.33%;
+}
+
+.col-2 {
+    flex-basis: 16.66%;
+    max-width: 16.66%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.col-4 {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.col-5 {
+    flex-basis: 41.66%;
+    max-width: 41.66%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex-basis: 58.33%;
+    max-width: 58.33%;
+}
+
+.col-8 {
+    flex-basis: 66.66%;
+    max-width: 66.66%;
+}
+
+.col-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    flex-basis: 83.33%;
+    max-width: 83.33%;
+}
+
+.col-11 {
+    flex-basis: 91.33%;
+    max-width: 91.33%;
+}
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+
+.wrap-0 {
+    
+    margin-top: 15px;
+}
+
+.wrap-0 nav {
+    background-color: rgba(5, 0, 23, 0.73);
+    padding: 20px 40px;
+
+
+}
+
+.wrap-0 nav ul li {
+    display: inline-block;
+
+
+}
+
+.wrap-0 nav ul li a {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0px 25px;
+    font-size: 16px;
+
+}
+
+.wrap-1, .wrap-2, .wrap-3{
+    padding: 50px 0px;
+}
+p{
+    padding: 10px 0px;
+}
+
+.wrap-3{
+    background-color: #0b0031;
+}
